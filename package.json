@@ -1,0 +1,25 @@
+{
+  "name": "esbuild-import-plugin",
+  "version": "0.0.3",
+  "main": "./lib/index.js",
+  "description": "esbuild import plugin",
+  "keywords": [],
+  "homepage": "https://github.com/teniryte/esbuild-import-plugin",
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {
+    "axios": "^0.21.1",
+    "ooi": "^0.0.51"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha ./test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teniryte/esbuild-import-plugin.git"
+  },
+  "author": {
+    "name": "teniryte",
+    "email": "teniryte@gmail.com"
+  }
+}
