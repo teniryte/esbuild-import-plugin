@@ -1,6 +1,6 @@
 {
   "name": "esbuild-import-plugin",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "main": "./lib/index.js",
   "description": "esbuild import plugin",
   "keywords": [],
