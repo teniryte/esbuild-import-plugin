@@ -24,7 +24,3 @@ esbuild.build({
   plugins: [importPlugin],
 });
 ```
-
-### DevPackages
-
-- `ooi`;
