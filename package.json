@@ -1,15 +1,13 @@
 {
   "name": "esbuild-import-plugin",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "main": "./lib/index.js",
   "description": "esbuild import plugin",
   "keywords": [],
   "homepage": "https://github.com/teniryte/esbuild-import-plugin",
   "license": "MIT",
   "devDependencies": {},
-  "dependencies": {
-    "ooi": "^0.0.51"
-  },
+  "dependencies": {},
   "scripts": {
     "test": "./node_modules/.bin/mocha ./test/index.js"
   },
@@ -20,5 +18,8 @@
   "author": {
     "name": "teniryte",
     "email": "teniryte@gmail.com"
+  },
+  "engines": {
+    "node": ">14.0.0"
   }
 }
