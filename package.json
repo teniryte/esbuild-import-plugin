@@ -1,6 +1,6 @@
 {
   "name": "esbuild-import-plugin",
-  "version": "0.0.14",
+  "version": "0.0.15",
   "main": "./lib/index.js",
   "description": "esbuild import plugin",
   "keywords": [],
@@ -8,7 +8,7 @@
   "license": "MIT",
   "devDependencies": {},
   "dependencies": {
-    "ooi": "^0.1.55"
+    "ooi": "0.1.48"
   },
   "scripts": {
     "test": "./node_modules/.bin/mocha ./test/index.js"
@@ -23,5 +23,8 @@
   },
   "engines": {
     "node": ">14.0.0"
-  }
+  },
+  "deps": [
+    "ooi@0.1.48"
+  ]
 }
